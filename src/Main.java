@@ -11,12 +11,16 @@ public class Main {
         boolean incluidoNOplano = true;
         double notaDOfilme = 8.1;
         
-
+    /**
         double media = (9.8 + 6.3 + 8.0) / 3;
         System.out.println("media: " + media%2);
-        String sinopse =
-                        """filme de sessao da tarde, pastelao""" + anoDElancamento;
+        String sinopse = """filme de sessao da tarde, pastelao""" + anoDElancamento;
         System.out.printf(sinopse);
+
+        int classificacao = (int) (media /2);
+        System.out.println("classificacao: " + classificacao);
+
+    **/
 
         /**
              * % seguido de uma letra que indica o tipo de
@@ -51,6 +55,6 @@ public class Main {
          * System.out.println(mensagem);
          *
          */
-        
+
     }
 }
