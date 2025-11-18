@@ -3,7 +3,7 @@ public class Condicional
     public static void main(String[] args)
     {
         int anoDElancamento = 2022;
-        boolean incluidoNOplano = true;
+        boolean incluidoNOplano = false;
         double notaDOfilme = 8.1;
         String tipoPlano = "plus";
 
@@ -16,7 +16,7 @@ public class Condicional
             System.out.println("filme retro que vale a pena assistir!");
         }
 
-        if(incluidoNOplano == true || tipoPlano.equals("plus")) {
+        if(incluidoNOplano == true && tipoPlano.equals("plus")) {
             System.out.println("filme liberado.");
         }else{
             System.out.println("pague.");
