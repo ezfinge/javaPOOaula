@@ -7,13 +7,21 @@ package pratica.moeda;
  *      System.out.printf("Valor em Reais: R$ %.2f%n", reais);
  */
 
-public class ConversorDEmoedaS {
 
-    public double dolarPARAreais(double real, double dolar){
-        return real / dolar;
+
+
+
+public class ConversorMoeda implements ConversaoFinanceira {
+
+    // Converte reais para dólares
+    public double reaisPARAdolar(double reais) {
+        double cotacao = 5.00; // 1 dólar = 5 reais
+        return reais / cotacao;
     }
 
-    public double reaisPARAdolar(double cotacao, double dolar){
+    // Converte dólares para reais
+    @Override
+    public double converterDolarParaReal(double dolar, double cotacao) {
         return dolar * cotacao;
     }
 }
