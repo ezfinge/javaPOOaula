@@ -21,7 +21,8 @@ public class ConversorMoeda implements ConversaoFinanceira {
 
     // Converte dólares para reais
     @Override
-    public double converterDolarParaReal(double dolar, double cotacao) {
+    public double converterDolarParaReal(double dolar) {
+        double cotacao = 5.00;
         return dolar * cotacao;
     }
 }
