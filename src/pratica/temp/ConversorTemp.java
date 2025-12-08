@@ -1,4 +1,4 @@
-package InterfaceExercise;
+package pratica;
 
 public interface ConversorTemp {
     double celsiusParaFahrenheit();
