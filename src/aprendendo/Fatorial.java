@@ -1,3 +1,5 @@
+package aprendendo;
+
 import java.util.Scanner;
 
 public class Fatorial {
